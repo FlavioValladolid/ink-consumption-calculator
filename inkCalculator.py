@@ -12,3 +12,4 @@ class Calculator:
         return self.label_width*self.label_length*self.total_labels*self.percent_ink_transfer*self.percent_ink_coverage*self.anilox_volume/10000*0.0000002641721
     
 print(Calculator(10,16.25,1000,75,18.03,4).TotalInk())
+
